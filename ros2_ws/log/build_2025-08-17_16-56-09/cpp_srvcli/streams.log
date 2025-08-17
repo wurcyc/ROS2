@@ -1,0 +1,55 @@
+[0.012s] Invoking command in '/home/wurc/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wurc/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/wurc/ros2_ws/install/cpp_srvcli
+[0.152s] -- The C compiler identification is GNU 13.3.0
+[0.286s] -- The CXX compiler identification is GNU 13.3.0
+[0.310s] -- Detecting C compiler ABI info
+[0.408s] -- Detecting C compiler ABI info - done
+[0.414s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.414s] -- Detecting C compile features
+[0.415s] -- Detecting C compile features - done
+[0.424s] -- Detecting CXX compiler ABI info
+[0.520s] -- Detecting CXX compiler ABI info - done
+[0.526s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.527s] -- Detecting CXX compile features
+[0.527s] -- Detecting CXX compile features - done
+[0.533s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.684s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.790s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.839s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.853s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.893s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.009s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.013s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.097s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.117s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.137s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.215s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[1.378s] -- Configuring done (1.3s)
+[1.389s] -- Generating done (0.0s)
+[1.393s] -- Build files have been written to: /home/wurc/ros2_ws/build/cpp_srvcli
+[1.400s] Invoked command in '/home/wurc/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/wurc/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/wurc/ros2_ws/install/cpp_srvcli
+[1.401s] Invoking command in '/home/wurc/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wurc/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[1.451s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[5.298s] [100%] [32m[1mLinking CXX executable server[0m
+[5.454s] [100%] Built target server
+[5.463s] Invoked command in '/home/wurc/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wurc/ros2_ws/build/cpp_srvcli -- -j16 -l16
+[5.471s] Invoking command in '/home/wurc/ros2_ws/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wurc/ros2_ws/build/cpp_srvcli
+[5.477s] -- Install configuration: ""
+[5.477s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[5.478s] -- Set non-toolchain portion of runtime path of "/home/wurc/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[5.478s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[5.479s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[5.479s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[5.479s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[5.479s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[5.479s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[5.479s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[5.479s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[5.479s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[5.479s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[5.479s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[5.479s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[5.480s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[5.480s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[5.480s] -- Installing: /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[5.481s] Invoked command in '/home/wurc/ros2_ws/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wurc/ros2_ws/build/cpp_srvcli
