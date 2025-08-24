@@ -64,7 +64,9 @@ CMAKE_BINARY_DIR = /home/wurc/ros2_ws/build/cpp_srvcli
 
 # The main recursive "all" target.
 all: CMakeFiles/server.dir/all
+all: CMakeFiles/server_new.dir/all
 all: CMakeFiles/client.dir/all
+all: CMakeFiles/client_new.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -75,7 +77,9 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/cpp_srvcli_uninstall.dir/clean
 clean: CMakeFiles/server.dir/clean
+clean: CMakeFiles/server_new.dir/clean
 clean: CMakeFiles/client.dir/clean
+clean: CMakeFiles/client_new.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -137,7 +141,7 @@ CMakeFiles/cpp_srvcli_uninstall.dir/clean:
 CMakeFiles/server.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles --progress-num=3,4 "Built target server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles --progress-num=5,6 "Built target server"
 .PHONY : CMakeFiles/server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -155,6 +159,32 @@ server: CMakeFiles/server.dir/rule
 CMakeFiles/server.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/clean
 .PHONY : CMakeFiles/server.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/server_new.dir
+
+# All Build rule for target.
+CMakeFiles/server_new.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_new.dir/build.make CMakeFiles/server_new.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_new.dir/build.make CMakeFiles/server_new.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles --progress-num=7,8 "Built target server_new"
+.PHONY : CMakeFiles/server_new.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/server_new.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/server_new.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles 0
+.PHONY : CMakeFiles/server_new.dir/rule
+
+# Convenience name for target.
+server_new: CMakeFiles/server_new.dir/rule
+.PHONY : server_new
+
+# clean rule for target.
+CMakeFiles/server_new.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/server_new.dir/build.make CMakeFiles/server_new.dir/clean
+.PHONY : CMakeFiles/server_new.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/client.dir
@@ -181,6 +211,32 @@ client: CMakeFiles/client.dir/rule
 CMakeFiles/client.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/clean
 .PHONY : CMakeFiles/client.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/client_new.dir
+
+# All Build rule for target.
+CMakeFiles/client_new.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_new.dir/build.make CMakeFiles/client_new.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_new.dir/build.make CMakeFiles/client_new.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles --progress-num=3,4 "Built target client_new"
+.PHONY : CMakeFiles/client_new.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/client_new.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/client_new.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles 0
+.PHONY : CMakeFiles/client_new.dir/rule
+
+# Convenience name for target.
+client_new: CMakeFiles/client_new.dir/rule
+.PHONY : client_new
+
+# clean rule for target.
+CMakeFiles/client_new.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client_new.dir/build.make CMakeFiles/client_new.dir/clean
+.PHONY : CMakeFiles/client_new.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

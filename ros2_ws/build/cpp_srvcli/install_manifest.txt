@@ -1,5 +1,7 @@
 /home/wurc/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
 /home/wurc/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+/home/wurc/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server_new
+/home/wurc/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client_new
 /home/wurc/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
 /home/wurc/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
 /home/wurc/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh

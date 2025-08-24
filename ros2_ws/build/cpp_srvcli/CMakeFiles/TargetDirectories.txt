@@ -1,7 +1,9 @@
 /home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles/uninstall.dir
 /home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles/cpp_srvcli_uninstall.dir
 /home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles/server.dir
+/home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles/server_new.dir
 /home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles/client.dir
+/home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles/client_new.dir
 /home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles/test.dir
 /home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles/edit_cache.dir
 /home/wurc/ros2_ws/build/cpp_srvcli/CMakeFiles/rebuild_cache.dir
